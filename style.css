@@ -62,30 +62,6 @@ img{
 .btn-1,.btn-2,.btn-3{
   margin: 20px;
 }
-@media screen and (max-width: 1095px){
-  nav a{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-  nav{
-    padding: 0px;
-  }
-  .head{
-    display: flex;
-    flex-direction: column;
-  }
-  .image {
-    display: block;
-  }
-  img{
-    width: 310px;
-  }
-  .btn{
-    margin: 30px;
-  }
-}
-
 /* button animation copyright to their */
 /* From cssbuttons.io by @nikk7007 */
 button {
@@ -125,3 +101,29 @@ button {
   color: #111;
  }
  
+@media screen and (max-width: 1095px){
+  nav a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  nav{
+    padding: 0px;
+  }
+  .head{
+    display: flex;
+    flex-direction: column;
+  }
+  .image {
+    display: block;
+  }
+  img{
+    width: 310px;
+  }
+  .btn{
+    margin: 30px;
+  }
+  button{
+    font-size: 20px;
+  }
+}
