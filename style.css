@@ -144,12 +144,13 @@ button:hover {
     font-size: 20px;
   }
   .burger {
-    display: flex;
+    display: flex;  
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #ff4e6b;
     border-radius: 3px;
+    height: 50px;
   }
   .v-nav {
     height: 0px;
