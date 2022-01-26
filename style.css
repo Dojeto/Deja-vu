@@ -66,6 +66,17 @@ img {
   margin: 20px;
 }
 
+.burger {
+  display: none;
+}
+
+.line {
+  width: 25px;
+  background-color: #ffffff;
+  height: 4px;
+  margin: 3px;
+}
+
 /* button animation copyright to their */
 /* From cssbuttons.io by @nikk7007 */
 button {
@@ -112,7 +123,9 @@ button:hover {
     text-align: center;
   }
   nav {
+    height: 234px;
     padding: 0px;
+    transition: all 0.3s ease-out;
   }
   .head {
     display: flex;
@@ -129,5 +142,17 @@ button:hover {
   }
   button {
     font-size: 20px;
+  }
+  .burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff4e6b;
+    border-radius: 3px;
+  }
+  .v-nav {
+    height: 0px;
+    visibility: hidden;
   }
 }
