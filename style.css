@@ -62,7 +62,8 @@ img {
 }
 .btn-1,
 .btn-2,
-.btn-3 {
+.btn-3,
+.btn-4 {
   margin: 20px;
 }
 
@@ -79,7 +80,7 @@ img {
 
 /* button animation copyright to their */
 /* From cssbuttons.io by @nikk7007 */
-button {
+.button {
   padding: 0.8em 1.8em;
   border: 2px solid #ff4e6b;
   position: relative;
@@ -94,7 +95,7 @@ button {
   color: #ff4e6b;
 }
 
-button::before {
+.button::before {
   content: "";
   width: 0;
   height: 300%;
@@ -108,13 +109,20 @@ button::before {
   z-index: -1;
 }
 
-button:hover::before {
+.button:hover::before {
   width: 105%;
 }
 
-button:hover {
+.button:hover {
   color: #111;
 }
+#preloader{
+  background: black url(/Potential\ Loading\ Icon\ is\ Pleasing.....\ -\ Imgur.gif) no-repeat center center;
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+}
+
 
 @media screen and (max-width: 1095px) {
   nav a {
@@ -140,17 +148,17 @@ button:hover {
   .btn {
     margin: 30px;
   }
-  button {
+  .button {
     font-size: 20px;
   }
   .burger {
-    display: flex;  
+    display: flex;
+    height: 50px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #ff4e6b;
     border-radius: 3px;
-    height: 50px;
   }
   .v-nav {
     height: 0px;
