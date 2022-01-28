@@ -117,7 +117,7 @@ img {
   color: #111;
 }
 #preloader{
-  background: black url(/Potential\ Loading\ Icon\ is\ Pleasing.....\ -\ Imgur.gif) no-repeat center center;
+  background: #030303 url(/Potential\ Loading\ Icon\ is\ Pleasing.....\ -\ Imgur.gif) no-repeat center center;
   background-size: 50%;
   height: 100vh;
   position: fixed;
